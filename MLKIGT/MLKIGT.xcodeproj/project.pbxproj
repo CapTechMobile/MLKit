@@ -20,6 +20,8 @@
 		67AD813520A63200005E563F /* NavigationStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AD813420A63200005E563F /* NavigationStateTests.swift */; };
 		67AD813720A63560005E563F /* AppStateReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AD813620A63560005E563F /* AppStateReducer.swift */; };
 		67AD813920A63594005E563F /* NavigationActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AD813820A63594005E563F /* NavigationActions.swift */; };
+		C10321840AADD46A4DC04675 /* Pods_MLKIGT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110002F67AF6E9FCED0F6A59 /* Pods_MLKIGT.framework */; };
+		FB32C07D499C157F41F0AD6E /* Pods_MLKIGTTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C922D684BF9125FCE73BBB96 /* Pods_MLKIGTTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		110002F67AF6E9FCED0F6A59 /* Pods_MLKIGT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MLKIGT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AB655E8C343C53498624A40 /* Pods-MLKIGT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLKIGT.release.xcconfig"; path = "Pods/Target Support Files/Pods-MLKIGT/Pods-MLKIGT.release.xcconfig"; sourceTree = "<group>"; };
+		2ED33D39C3486920C9DCA36B /* Pods-MLKIGTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLKIGTTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MLKIGTTests/Pods-MLKIGTTests.debug.xcconfig"; sourceTree = "<group>"; };
 		67AD810220A62EBF005E563F /* MLKIGT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLKIGT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67AD810520A62EBF005E563F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67AD810720A62EBF005E563F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +56,9 @@
 		67AD813420A63200005E563F /* NavigationStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStateTests.swift; sourceTree = "<group>"; };
 		67AD813620A63560005E563F /* AppStateReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateReducer.swift; sourceTree = "<group>"; };
 		67AD813820A63594005E563F /* NavigationActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationActions.swift; sourceTree = "<group>"; };
+		9487709BF765017584DB7ACE /* Pods-MLKIGT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLKIGT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MLKIGT/Pods-MLKIGT.debug.xcconfig"; sourceTree = "<group>"; };
+		C922D684BF9125FCE73BBB96 /* Pods_MLKIGTTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MLKIGTTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E637B64934C512678238B7C9 /* Pods-MLKIGTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLKIGTTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MLKIGTTests/Pods-MLKIGTTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67AD812A20A630A0005E563F /* ReSwift.framework in Frameworks */,
+				C10321840AADD46A4DC04675 /* Pods_MLKIGT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB32C07D499C157F41F0AD6E /* Pods_MLKIGTTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +90,8 @@
 				67AD810420A62EBF005E563F /* MLKIGT */,
 				67AD811920A62EC1005E563F /* MLKIGTTests */,
 				67AD810320A62EBF005E563F /* Products */,
+				D34A05CA7534AF512D8F2574 /* Pods */,
+				A6C4B4D91A293F6837A3AFE8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,6 +156,26 @@
 			path = AppState;
 			sourceTree = "<group>";
 		};
+		A6C4B4D91A293F6837A3AFE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				110002F67AF6E9FCED0F6A59 /* Pods_MLKIGT.framework */,
+				C922D684BF9125FCE73BBB96 /* Pods_MLKIGTTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D34A05CA7534AF512D8F2574 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9487709BF765017584DB7ACE /* Pods-MLKIGT.debug.xcconfig */,
+				2AB655E8C343C53498624A40 /* Pods-MLKIGT.release.xcconfig */,
+				2ED33D39C3486920C9DCA36B /* Pods-MLKIGTTests.debug.xcconfig */,
+				E637B64934C512678238B7C9 /* Pods-MLKIGTTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,11 +183,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67AD811F20A62EC1005E563F /* Build configuration list for PBXNativeTarget "MLKIGT" */;
 			buildPhases = (
+				C8FCD01A184D33325BC73088 /* [CP] Check Pods Manifest.lock */,
 				67AD80FE20A62EBF005E563F /* Sources */,
 				67AD80FF20A62EBF005E563F /* Frameworks */,
 				67AD810020A62EBF005E563F /* Resources */,
 				67AD812B20A630C7005E563F /* Carthage */,
 				67AD813A20A639B4005E563F /* ShellScript */,
+				ED3EE6A91D1B7EDD269CBFAC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 67AD812220A62EC1005E563F /* Build configuration list for PBXNativeTarget "MLKIGTTests" */;
 			buildPhases = (
+				26B6DA2663A1DE971102F008 /* [CP] Check Pods Manifest.lock */,
 				67AD811220A62EC1005E563F /* Sources */,
 				67AD811320A62EC1005E563F /* Frameworks */,
 				67AD811420A62EC1005E563F /* Resources */,
@@ -243,6 +278,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		26B6DA2663A1DE971102F008 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MLKIGTTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		67AD812B20A630C7005E563F /* Carthage */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -271,6 +324,44 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/swiftformat \"$(SRCROOT)\"";
+		};
+		C8FCD01A184D33325BC73088 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MLKIGT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED3EE6A91D1B7EDD269CBFAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MLKIGT/Pods-MLKIGT-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MLKIGT/Pods-MLKIGT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -444,6 +535,7 @@
 		};
 		67AD812020A62EC1005E563F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9487709BF765017584DB7ACE /* Pods-MLKIGT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,10 +545,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = MLKIGT/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-Q4M6DQ9WM.com.captech.broski.MLKIGT";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -466,6 +555,7 @@
 		};
 		67AD812120A62EC1005E563F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AB655E8C343C53498624A40 /* Pods-MLKIGT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -475,10 +565,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = MLKIGT/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-Q4M6DQ9WM.com.captech.broski.MLKIGT";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -488,17 +575,14 @@
 		};
 		67AD812320A62EC1005E563F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ED33D39C3486920C9DCA36B /* Pods-MLKIGTTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Q4M6DQ9WM;
 				INFOPLIST_FILE = MLKIGTTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-Q4M6DQ9WM.com.captech.broski.MLKIGTTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -509,17 +593,14 @@
 		};
 		67AD812420A62EC1005E563F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E637B64934C512678238B7C9 /* Pods-MLKIGTTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Q4M6DQ9WM;
 				INFOPLIST_FILE = MLKIGTTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-Q4M6DQ9WM.com.captech.broski.MLKIGTTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
