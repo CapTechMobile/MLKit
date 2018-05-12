@@ -8,6 +8,7 @@
 
 import UIKit
 import ReSwift
+import Firebase
 
 let mainStore = Store<AppState>(
     reducer: AppStateReducer.main,
@@ -21,6 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_: UIApplication, didFinishLaunchingWithOptions _: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+
+        FirebaseApp.configure()
         return true
     }
 

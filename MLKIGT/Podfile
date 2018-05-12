@@ -7,6 +7,7 @@ target 'MLKIGT' do
 
   # Pods for MLKIGT
 	pod 'Firebase/Core'
+	pod 'Firebase/MLKit'
   target 'MLKIGTTests' do
     inherit! :search_paths
     # Pods for testing
